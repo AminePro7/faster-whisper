@@ -18,10 +18,7 @@ A real-time voice transcription tool using the faster-whisper library for effici
 ## 📋 Requirements
 
 - Python 3.7+
-- PyAudio
-- faster-whisper
-- keyboard
-- bitsandbytes
+- See `requirements.txt` for all dependencies
 
 ## 🔧 Installation
 
@@ -33,7 +30,7 @@ cd faster-whisper
 
 2. Install the required dependencies:
 ```bash
-pip install faster-whisper pyaudio keyboard bitsandbytes
+pip install -r requirements.txt
 ```
 
 ## 💻 Usage
